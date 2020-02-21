@@ -1,0 +1,354 @@
+#container{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	height: 100vh;
+	background-attachment: fixed;	
+}
+
+.clear{
+	clear:both;
+}
+
+.section {
+	overflow: scroll;
+	box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+	z-index: 5;
+}
+
+/*/// NAVIGATION ///////////////////////////////*/
+#navSection{
+	position:fixed;
+    background-color:rgba(54,172,122,1);
+	z-index: 999999;
+	/*box-shadow: -2px 2px 7px rgba(0,0,0,.5);	*/
+}
+
+#nav h3{
+	color:#fff;
+	text-align:center;
+	font-weight: bold;
+	transition:color .3s;
+	-o-transition:color  .3s;
+	-moz-transition:color .3s;
+	-webkit-transition:color .3s;
+	-ms-transition:color .3s;	
+}
+
+#nav h3:hover{
+    color:#d5c93f;
+	transition:color 1s;
+	-o-transition:color  1s;
+	-moz-transition:color 1s;
+	-webkit-transition:color 1s;
+	-ms-transition:color 1s;
+}
+
+/*/// ABOUT ///////////////////////////////*/
+#aboutSection{
+	background-image:url(../images/hippo_color.jpg);
+	background-size: cover;
+	background-position: center;
+	display: block;
+}
+
+
+/*/// TICKETS ///////////////////////////////*/
+#ticketSection{
+	background-image:url(../images/hippo4_color.jpg);
+	background-size: cover;
+	background-position: center;
+	display: block;
+}
+
+#ticketSection a{
+	display: block;
+	border: 3px solid #fff;
+	margin:0px auto 0px auto;
+	transition:border .3s, background-color .3s;	
+	-o-transition:border .3s, background-color .3s;	
+	-moz-transition:border .3s, background-color .3s;	
+	-webkit-transition:border .3s, background-color .3s;
+	-ms-transition: border .3s, background-color .3s;		
+}
+
+#ticketSection a:hover{
+	border: 3px solid #90c599;
+	background-color: #36ac7a;
+	transition: border 1s, background-color 1s;	
+	-o-transition: border 1s, background-color 1s;	
+	-moz-transition: border 1s, background-color 1s;	
+	-webkit-transition: border 1s, background-color 1s;
+	-ms-transition: border 1s, background-color 1s;		
+}
+
+/*#ticketSection h3{	
+	transition:text-shadow .3s, color .3s;	
+	-o-transition:text-shadow  .3s, color .3s;	
+	-moz-transition:text-shadow .3s, color .3s;	
+	-webkit-transition:text-shadow .3s, color .3s;
+	-ms-transition:text-shadow .3s, color .3s;						
+}
+
+#ticketSection h3:hover{
+	text-shadow:-3px 3px 3px rgba(42,160,125,.9);
+	color:#d5c93f;	
+	transition:text-shadow 1s, color 1s;	
+	-o-transition:text-shadow  1s, color 1s;	
+	-moz-transition:text-shadow 1s, color 1s;	
+	-webkit-transition:text-shadow 1s, color 1s;
+	-ms-transition:text-shadow 1s, color 1s;						
+}
+*/
+
+/*/// MEET N GREET ///////////////////////////////*/
+#meetSection{
+	background-image:url(../images/hippo2_color.jpg);
+	background-size: cover;
+	background-position: center;
+	display: block;
+}
+
+#meetSection a{
+	display: block;
+	border: 3px solid #fff;
+	margin:0px 0px 10px 10%;
+	transition:border .3s, background-color .3s;	
+	-o-transition:border .3s, background-color .3s;	
+	-moz-transition:border .3s, background-color .3s;	
+	-webkit-transition:border .3s, background-color .3s;
+	-ms-transition: border .3s, background-color .3s;		
+}
+
+#meetSection a:hover{
+	border: 3px solid #90c599;
+	background-color: #36ac7a;
+	transition: border 1s, background-color 1s;	
+	-o-transition: border 1s, background-color 1s;	
+	-moz-transition: border 1s, background-color 1s;	
+	-webkit-transition: border 1s, background-color 1s;
+	-ms-transition: border 1s, background-color 1s;		
+}
+
+#meetSection .rightMeet .meetResources{
+	display: block;
+	border: 3px solid #fff;
+	transition:border .3s, background-color .3s;	
+	-o-transition:border .3s, background-color .3s;	
+	-moz-transition:border .3s, background-color .3s;	
+	-webkit-transition:border .3s, background-color .3s;
+	-ms-transition: border .3s, background-color .3s;		
+}
+
+#meetSection .rightMeet .meetResources:hover{
+	border: 3px solid #90c599;
+	background-color: #36ac7a;
+	transition: border 1s, background-color 1s;	
+	-o-transition: border 1s, background-color 1s;	
+	-moz-transition: border 1s, background-color 1s;	
+	-webkit-transition: border 1s, background-color 1s;
+	-ms-transition: border 1s, background-color 1s;		
+}
+
+#meetSection .rightMeet #vote:hover{
+    background-color:rgba(54,172,122,0);
+    color:#fff;
+   	transition: color 1s;	
+	-o-transition: color 1s;	
+	-moz-transition: color 1s;	
+	-webkit-transition: color 1s;
+	-ms-transition: color 1s;		 
+}
+
+/*#meetSection h3{	
+	transition:text-shadow .3s, color .3s;	
+	-o-transition:text-shadow  .3s, color .3s;	
+	-moz-transition:text-shadow .3s, color .3s;	
+	-webkit-transition:text-shadow .3s, color .3s;
+	-ms-transition:text-shadow .3s, color .3s;						
+}
+
+#meetSection h3:hover{
+	text-shadow:-3px 3px 3px rgba(42,160,125,.9);
+	color:#d5c93f;	
+	transition:text-shadow 1s, color 1s;	
+	-o-transition:text-shadow  1s, color 1s;	
+	-moz-transition:text-shadow 1s, color 1s;	
+	-webkit-transition:text-shadow 1s, color 1s;
+	-ms-transition:text-shadow 1s, color 1s;						
+}
+*/
+
+/*#contactForm{
+	width: 100%;
+}
+
+#contactForm input[type=text], #contactForm input[type=email]{
+    color:#fff;	
+	font-family:Helvetica, Arial, sans-serif;
+	width:90%;	
+	display: block;
+	background-color:rgba(255,255,255,.8);
+	transition:border-color .3s;	
+	-o-transition:border-color .3s;	
+	-moz-transition:border-color .3s;	
+	-webkit-transition:border-color .3s;	
+	-ms-transition:border-color .3s;	
+	font-size: 14px;
+	height: 35px;
+	margin:0px auto 10px auto;
+	border:3px rgba(255,255,255,1) solid;			
+}
+
+#contactForm input[type=button]{
+	font-family:Helvetica, Arial, sans-serif;
+	color:#fff;
+	display:block;
+	cursor: pointer;
+	text-decoration: none;
+	border: 3px solid #fff;
+	-o-transition:opacity  .3s;	
+	-moz-transition:opacity .3s;	
+	-webkit-transition:opacity .3s;	
+	-ms-transition:opacity .3s;	
+	transition:opacity .3s;
+	font-size: 18px;
+	letter-spacing: 3px;
+	width:40%;
+	height: 35px;
+}
+
+#contactForm input[type=button]:hover{
+	opacity:.7;
+	-o-transition:opacity  .3s;	
+	-moz-transition:opacity .3s;	
+	-webkit-transition:opacity .3s;
+	-ms-transition:opacity .3s;	
+	transition:opacity .3s;	
+}
+
+#contactForm .hasFocus{
+	background-color:rgba(255,255,255,.85);
+	transition:background-color .3s;	
+	-o-transition:background-color .3s;	
+	-moz-transition:background-color .3s;	
+	-webkit-transition:background-color .3s;
+	-ms-transition:background-color .3s;	
+}
+
+#realInput{
+	display:none;
+}
+
+#fakeInput{
+	border:none;
+	float: left;
+	margin:0px 10% 0px 5%;
+}
+
+#patHolder{
+	text-align: center;
+	margin: 0 auto 0 auto;
+	color:#fff;
+}
+
+.invalid{
+	border:3px #f00 solid;			
+}
+
+#preview{
+	position: absolute;
+	top:5%;
+	left:5%;
+}
+
+#thankYou{
+	
+	width:100%;
+	opacity:0;
+	display: none;
+	float: left;
+}
+
+#thankYou h5{
+    color:#fff;
+	font-size: 24px;
+	padding:0px 0px 0px 10%;
+	margin-bottom:2%;
+}
+
+#thankYou h5 span{
+    color:#fff;
+	font-size: 24px;
+}
+
+#thankYou h6{
+    color:#fff;	
+	font-size: 14px;
+	line-height: 18px;
+	padding-right: 1%;
+}
+*/
+
+
+/*/// MUSIC ///////////////////////////////*/
+#musicSection{
+	background-image:url(../images/hippo3_color.jpg);
+	background-size: cover;
+	background-position: center;
+	display: block;
+}
+
+
+/*/// CONTACT ///////////////////////////////*/
+#contactSection{
+	background-image:url(../images/hippo1_color.jpg);
+	background-size: cover;
+	background-position: center;
+	display: block;
+	position: relative;
+}
+
+#contactSection li{
+	float:left;
+}
+
+#contactSection a{
+	transition:box-shadow .3s;	
+	-o-transition:box-shadow  .3s;	
+	-moz-transition:box-shadow .3s;	
+	-webkit-transition:box-shadow .3s;
+	-ms-transition:box-shadow .3s;		
+}
+
+#contactSection a:hover{
+	box-shadow: -3px 3px 3px rgba(213,201,63,.9);
+	transition:box-shadow 1s;	
+	-o-transition:box-shadow  1s;	
+	-moz-transition:box-shadow 1s;	
+	-webkit-transition:box-shadow 1s;
+	-ms-transition:box-shadow 1s;		
+}
+
+#copyrightText{
+	position:absolute;
+	bottom:3%;
+	color:#fff;
+	padding-left:3%;
+}
+
+#designby{
+	position:absolute;
+	bottom:3%;
+	color:#fff;
+	padding-left:3%;
+}
+
+#designby a{
+	color:#fff;
+	text-decoration: underline;
+}
+
+
+

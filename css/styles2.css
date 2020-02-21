@@ -1,0 +1,923 @@
+
+/* DESKTOP STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 978px){
+#container{
+	background-image:url(../images/hippoDigital.jpg);	
+	width:542vw;
+}
+
+.section {
+	width: 85vw;
+	height:96vh;
+	margin-top:2vh;
+	margin-right:30px;
+	float:left;
+}
+
+
+/*/// NAVIGATION ///////////////////////////////*/
+#navSection{
+	width:10vw;
+	height: 100vh;
+}
+
+#hippoLogo{
+	width:76%;
+	display: block;
+	margin:15px auto 30px auto;
+}
+
+#nav h3{
+	font-size: 18px;
+	line-height: 50px;
+}
+
+#bdpLogo{
+	width:50%;
+	display: block;
+	margin:100px auto 5px auto;
+	transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+}
+
+/*/// ABOUT ///////////////////////////////*/
+#aboutSection{
+	margin-left:101vw;
+}
+
+#aboutSection .leftPress{
+	width:50%;
+	float: left;
+}
+
+#aboutSection .rightPress{
+	width:50%;
+	float: right;
+}
+
+#aboutSection h1{
+	padding:50vh 0px 15px 10%;
+	font-size: 35px;
+	color:#fff;	
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);
+}
+
+#aboutSection p{
+	font-size: 12px;
+	line-height: 16px;
+	color:#fff;
+	padding:0px 5px 5px 4%;
+	text-shadow:-1px 1px 3px #000;		
+}
+
+
+/*/// TICKETS ///////////////////////////////*/
+#ticketSection .leftTix{
+	width:50%;
+	float: left;
+}
+
+#ticketSection .rightTix{
+	width:50%;
+	float: right;
+}
+
+#ticketSection h1{
+	font-size: 35px;
+	color:#fff;
+	padding:50vh 0px 15px 10%;
+	text-shadow:-3px 3px 3px rgba(54,172,122,1);	
+}
+
+#ticketSection p{
+	font-size: 12px;
+	line-height: 16px;
+	color:#fff;
+	padding:0px 5px 5px 4%;
+	text-shadow:-1px 1px 3px #000;		
+}
+
+#ticketSection h2{
+	font-size: 24px;
+	color:#fff;
+	text-align: center;
+	padding:0px 0px 5px 0px;
+	text-shadow:-3px 3px 3px rgba(54,172,122,1);		
+}
+
+#ticketSection h5{
+	font-size: 18px;
+	color:#fff;
+	text-align: center;
+	padding:0px 0px 20px 0px;
+}
+
+#ticketSection h3{
+	font-family:'bigJohn',Helvetica, Arial, sans-serif;	
+	font-size: 24px;
+	line-height: 40px;
+	color:#fff;
+	text-align: center;
+	/*text-shadow:-3px 3px 3px rgba(54,172,122,1);			*/
+}
+
+#ticketSection a{
+	width:60%;
+	height: 40px;
+}
+
+
+/*/// MEET N GREET ///////////////////////////////*/
+#meetSection .leftMeet{
+	width:50%;
+	float: left;
+	/*padding-top:53vh;*/
+}
+
+#meetSection .rightMeet{
+	width:50%;
+	float: right;
+	/*padding-top:53vh;*/
+}
+
+#meetSection h1{
+	font-size: 35px;
+	color:#fff;
+	padding:50vh 0px 15px 10%;
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);
+}
+
+#meetSection p{
+	font-size: 12px;
+	line-height: 16px;
+	color:#fff;
+	padding:0px 5px 5px 4%;
+	text-shadow:-1px 1px 3px #000;		
+}
+
+#meetSection h2{
+	width:60%;
+	font-size: 24px;
+	color:#FFF;
+	text-align: center;
+	padding:0px 0px 15px 10%;
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);
+}
+
+#meetSection h3{
+	font-family:'bigJohn',Helvetica, Arial, sans-serif;		
+	font-size: 24px;
+	line-height: 40px;
+	color:#fff;
+	text-align: center;
+}
+
+#meetSection a{
+	width:70%;
+	height: 40px;
+}
+
+#meetSection .rightMeet .meetResources{
+	float: left;
+	width:33%;
+	height: 40px;
+	margin:0px 2.9% 10px 10%;
+}
+
+#meetSection .rightMeet #noMargin{
+	margin:0px 0px 0px 0;
+}
+
+#meetSection .rightMeet .meetResources p{
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	text-shadow:-3px 3px 3px rgba(144,197,153,0);	
+}
+
+#meetSection h5{
+	font-family:'bigJohn',Helvetica, Arial, sans-serif;	
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#meetSection .rightMeet #vote{
+	text-decoration: underline;
+    color:#36ac7a;
+	margin:0px 0px 0px 10%;  
+	border: 0px solid rgba(54,172,122,0);	
+   	transition: color .3s;	
+	-o-transition: color .3s;	
+	-moz-transition: color .3s;	
+	-webkit-transition: color .3s;
+	-ms-transition: color .3s;			  
+}
+
+/*/// MUSIC ///////////////////////////////*/
+#musicSection .leftMusic{
+	width:50%;
+	float: left;
+}
+
+#musicSection .rightMusic{
+	width:50%;
+	float: right;
+}
+
+#musicSection h1{
+	font-size: 35px;
+	color:#fff;
+	padding:50vh 0px 15px 10%;
+	text-shadow:-3px 3px 3px rgba(54,172,122,1);			
+}
+
+#musicSection p{
+	font-size: 12px;
+	line-height: 16px;
+	color:#fff;
+	padding:0px 5px 5px 4%;
+	text-shadow:-1px 1px 3px #000;			
+}
+
+#musicSection .video{
+	margin:0px auto 0px auto;
+	width:90%;
+	height: 32vh;
+}
+
+
+/*/// CONTACT ///////////////////////////////*/
+#contactSection .leftContact{
+	width:50%;
+	float: left;
+	padding-top:50vh;
+}
+
+#contactSection .rightContact{
+	width:50%;
+	float: right;
+	padding-top:50vh;
+}
+
+#contactSection h1{
+	font-size: 35px;
+	color:#fff;
+	padding:0px 0px 15px 10%;
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);	
+}
+
+#contactSection h2{
+	width:60%;
+	font-size: 24px;
+	color:#FFF;
+	text-align: center;
+	padding:0px 0px 15px 0%;
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);
+}
+
+#hippoList{
+	margin:0px auto 0px auto;
+	width:75%;
+}
+
+#bdpList{
+	margin:0px auto 0px auto;
+	width:75%;
+}
+
+#contactSection li{
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#copyrightText, #designby{
+	font-size:12px;
+	line-height:40px;	
+	color:#fff;
+	width: 40%;
+	text-shadow:-1px 1px 3px #000;				
+}
+
+
+
+
+} /*<-- END DESKTOP STYLES ///////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 700px) and (max-width: 977px){
+	#container{
+		background-image:url(../images/hippoDigital_2.jpg);		
+		background-position: right;
+		width:530vw;
+	}
+
+	.section {
+		width: 80vw;
+		height:96vh;
+		margin-top:2vh;
+		margin-right:1%;
+		float:left;
+	}
+
+
+	/*/// NAVIGATION ///////////////////////////////*/
+	#navSection{
+		width:15vw;
+		height: 100vh;
+	}
+
+	#hippoLogo{
+		width:76%;
+		display: block;
+		margin:15px auto 30px auto;
+	}
+
+	#nav h3{
+		font-size: 18px;
+		line-height: 50px;
+	}
+
+	#bdpLogo{
+		width:30%;
+		display: block;
+		margin:70% auto 0px auto;
+	}
+
+	/*/// ABOUT ///////////////////////////////*/
+	#aboutSection{
+		margin-left:101vw;
+	}
+
+	#aboutSection .leftPress{
+		width:50%;
+		float: left;
+	}
+
+	#aboutSection .rightPress{
+		width:50%;
+		float: right;
+	}
+
+	#aboutSection h1{
+		padding:50vh 0px 20px 10%;
+		font-size: 35px;
+		color:#fff;	
+		text-shadow:-3px 3px 3px rgba(144,197,153,1);
+	}
+
+	#aboutSection p{
+		font-size: 12px;
+		line-height: 16px;
+		color:#fff;
+		padding:0px 7% 7% 5%;
+		text-shadow:-1px 1px 3px #000;			
+	}
+
+
+	/*/// TICKETS ///////////////////////////////*/
+	#ticketSection .leftTix{
+		width:50%;
+		float: left;
+	}
+
+	#ticketSection .rightTix{
+		width:50%;
+		float: right;
+	}
+
+	#ticketSection h1{
+		font-size: 35px;
+		color:#fff;
+		padding:50vh 0px 20px 10%;
+		text-shadow:-3px 3px 3px rgba(54,172,122,1);		
+	}
+
+	#ticketSection p{
+		font-size: 12px;
+		line-height: 16px;
+		color:#fff;
+		padding:0px 7% 7% 5%;
+		text-shadow:-1px 1px 3px #000;			
+	}
+
+	#ticketSection h2{
+		font-size: 24px;
+		color:#fff;
+		text-align: center;
+		padding:0px 0px 5px 0px;
+		text-shadow:-3px 3px 3px rgba(54,172,122,1);		
+	}
+
+	#ticketSection h5{
+		font-size: 18px;
+		color:#fff;
+		text-align: center;
+		padding:0px 0px 20px 0px;
+	}
+
+	#ticketSection h3{
+		font-family:'bigJohn',Helvetica, Arial, sans-serif;			
+		font-size: 21px;
+		line-height: 40px;
+		color:#fff;
+		text-align: center;
+	}
+
+	#ticketSection a{
+		width:80%;
+		height: 40px;
+	}
+
+
+	/*/// MEET N GREET ///////////////////////////////*/
+	#meetSection .leftMeet{
+		width:50%;
+		float: left;
+		/*padding-top:53vh;*/
+	}
+
+	#meetSection .rightMeet{
+		width:50%;
+		float: right;
+		/*padding-top:53vh;*/
+	}
+
+	#meetSection h1{
+		font-size: 35px;
+		color:#fff;
+		padding:50vh 0px 20px 10%;
+		text-shadow:-3px 3px 3px rgba(144,197,153,1);
+	}
+
+	#meetSection p{
+		font-size: 12px;
+		line-height: 16px;
+		color:#fff;
+		padding:0px 7% 7% 5%;
+		text-shadow:-1px 1px 3px #000;			
+	}
+
+	#meetSection h2{
+		text-align: center;
+		font-size: 24px;
+		color:#FFF;
+		padding:0px 0px 15px 0px;
+		text-shadow:-3px 3px 3px rgba(144,197,153,1);
+	}
+
+	#meetSection h5{
+		text-align: center;
+		font-size: 14px;
+		line-height: 18px;
+		color:#fff;
+		margin-bottom: 30px;
+	}
+
+	#meetSection h3{
+		font-family:'bigJohn',Helvetica, Arial, sans-serif;			
+		font-size: 21px;
+		line-height: 40px;
+		color:#fff;
+		text-align: center;
+	}
+
+	#meetSection a{
+		width:80%;
+		height: 40px;
+	}
+
+	#meetSection .rightMeet .meetResources{
+		width:80%;
+		height: 40px;
+		margin:0px 2.9% 10px 10%;
+	}
+
+	#meetSection .rightMeet .meetResources p{
+		font-size: 18px;
+		line-height: 40px;
+		text-align: center;
+		text-shadow:-3px 3px 3px rgba(144,197,153,0);	
+	}
+
+
+
+	/*/// MUSIC ///////////////////////////////*/
+	#musicSection .leftMusic{
+		width:50%;
+		float: left;
+	}
+
+	#musicSection .rightMusic{
+		width:50%;
+		float: right;
+	}
+
+	#musicSection h1{
+		font-size: 35px;
+		color:#fff;
+		padding:50vh 0px 20px 10%;
+		text-shadow:-3px 3px 3px rgba(54,172,122,1);				
+	}
+
+	#musicSection p{
+		font-size: 12px;
+		line-height: 16px;
+		color:#fff;
+		padding:0px 7% 7% 5%;
+		text-shadow:-1px 1px 3px #000;			
+	}
+
+	#musicSection .video{
+		margin:0px auto 0px auto;
+		width:95%;
+		height: 35vh;
+	}
+
+
+	/*/// CONTACT ///////////////////////////////*/
+	#contactSection .leftContact{
+		width:50%;
+		float: left;
+		padding-top:50vh;
+	}
+
+	#contactSection .rightContact{
+		width:50%;
+		float: right;
+		padding-top:50vh;
+	}
+	#contactSection h1{
+		font-size: 35px;
+		color:#fff;
+		padding:0px 0px 20px 10%;
+		text-shadow:-3px 3px 3px rgba(144,197,153,1);		
+	}
+
+	#contactSection h2{
+		width:60%;
+		font-size: 24px;
+		color:#FFF;
+		text-align: center;
+		padding:0px 0px 15px 0%;
+		text-shadow:-3px 3px 3px rgba(144,197,153,1);
+	}
+
+	#hippoList{
+		margin:0px auto 0px auto;
+		width:90%;
+	}
+
+	#bdpList{
+		margin:0px auto 0px auto;
+		width:90%;
+	}
+
+	#contactSection li{
+		margin-right: 25px;
+		margin-bottom: 25px;
+		width:50px;
+		height: 50px;
+	}
+
+	#copyrightText, #designby{
+		font-size:12px;
+		line-height:40px;	
+		color:#fff;
+		width: 35%;
+		text-shadow:-1px 1px 3px #000;			
+	}
+
+
+} /*<-- END TABLET STYLES ///////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 699px){
+body{
+    background-color:rgba(144,197,153,1);    
+}
+
+#container{
+
+}
+
+#mobileHeader{
+	background-image:url(../images/hippoPoster.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	display: block;
+	height: 100vh;	
+	margin-bottom:3%;		
+}
+
+.section {
+	width: 96vw;
+	padding:3% 0 3% 0;
+	margin:0vh 3% 3% 2vw;
+}
+
+/*/// NAVIGATION ///////////////////////////////*/
+#navSection{
+	display: none;
+}
+
+#hippoLogo{
+	display: none;
+}
+
+#nav h3{
+	display: none;
+	opacity: 0;
+}
+
+#bdpLogo{
+	display: none;
+	opacity: 0;
+}
+
+/*/// ABOUT ///////////////////////////////*/
+#aboutSection{
+	/*margin-top:101vh;*/
+}
+
+#aboutSection .leftPress{
+	width:100%;
+}
+
+#aboutSection .rightPress{
+	width:100%;
+}
+
+#aboutSection h1{
+	padding:10vh 0px 20px 5%;
+	font-size: 35px;
+	color:#fff;	
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);
+}
+
+#aboutSection p{
+	font-size: 12px;
+	line-height: 16px;
+	color:#fff;
+	padding:0px 3% 3% 3%;
+	text-shadow:-1px 1px 3px #000;
+}
+
+
+/*/// TICKETS ///////////////////////////////*/
+#ticketSection .leftTix{
+	width:100%;
+	margin-bottom:5%;
+}
+
+#ticketSection .rightTix{
+	width:100%;
+}
+
+#ticketSection h1{
+	font-size: 35px;
+	color:#fff;
+	padding:10vh 0px 20px 5%;
+	text-shadow:-3px 3px 3px rgba(54,172,122,1);
+}
+
+#ticketSection p{
+	font-size: 12px;
+	line-height: 16px;
+	color:#fff;
+	padding:0px 3% 3% 3%;
+	text-shadow:-1px 1px 3px #000;
+}
+
+#ticketSection h2{
+	font-size: 24px;
+	color:#fff;
+	text-align: center;
+	padding:0px 0px 5px 0px;
+	text-shadow:-3px 3px 3px rgba(54,172,122,1);
+}
+
+#ticketSection h5{
+	font-size: 18px;
+	color:#fff;
+	text-align: center;
+	padding:0px 0px 20px 0px;
+}
+
+#ticketSection h3{
+	font-family:'bigJohn',Helvetica, Arial, sans-serif;
+	font-size: 21px;
+	line-height: 40px;
+	color:#fff;
+	text-align: center;
+}
+
+#ticketSection a{
+	width:90%;
+	height: 40px;
+}
+
+
+/*/// MEET N GREET ///////////////////////////////*/
+#meetSection .leftMeet{
+	width:100%;
+	margin-bottom:5%;
+}
+
+#meetSection .rightMeet{
+	width:100%;
+}
+
+#meetSection h1{
+	font-size: 35px;
+	color:#fff;
+	padding:10vh 0px 20px 5%;
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);
+}
+
+#meetSection p{
+	font-size: 12px;
+	line-height: 16px;
+	color:#fff;
+	padding:0px 3% 3% 3%;
+	text-shadow:-1px 1px 3px #000;
+}
+
+#meetSection h2{
+	font-size: 24px;
+	color:#FFF;
+	padding:0px 0px 20px 5%;
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);
+}
+
+#meetSection h5{
+	font-size: 14px;
+	line-height: 18px;
+	color:#fff;
+	padding:0px 0px 30px 5%;
+
+}
+
+#meetSection h3{
+	font-family:'bigJohn',Helvetica, Arial, sans-serif;	
+	font-size: 21px;
+	line-height: 40px;
+	color:#fff;
+	text-align: center;
+}
+
+#meetSection a{
+	width:80%;
+	height: 40px;
+}
+
+#meetSection .rightMeet .meetResources{
+	width:80%;
+	height: 40px;
+	margin:0px 2.9% 10px 10%;
+}
+
+#meetSection .rightMeet .meetResources p{
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	text-shadow:-3px 3px 3px rgba(144,197,153,0);	
+}
+
+
+/*/// MUSIC ///////////////////////////////*/
+#musicSection .leftMusic{
+	width:100%;
+	margin-bottom: 5%;
+}
+
+#musicSection .rightMusic{
+	width:100%;
+}
+
+#musicSection h1{
+	font-size: 35px;
+	color:#fff;
+	padding:10vh 0px 20px 5%;
+	text-shadow:-3px 3px 3px rgba(54,172,122,1);
+}
+
+#musicSection .video{
+	margin:0px auto 0px auto;
+	width:95%;
+	height: 30vh;
+}
+
+
+/*/// CONTACT ///////////////////////////////*/
+#contactSection{
+	padding-bottom:20%;
+}
+
+#contactSection .leftContact{
+	width:100%;
+	margin-bottom:15%;
+	padding-top:10vh;
+}
+
+#contactSection .rightContact{
+	width:100%;
+}
+
+#contactSection h1{
+	font-size: 35px;
+	color:#fff;
+	padding:0px 0px 20px 5%;
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);
+}
+
+#contactSection h2{
+	width:60%;
+	font-size: 24px;
+	color:#FFF;
+	text-align: center;
+	padding:0px 0px 15px 0%;
+	text-shadow:-3px 3px 3px rgba(144,197,153,1);
+}
+
+#hippoList{
+	margin:0px auto 0px auto;
+	width:90%;
+}
+
+#bdpList{
+	margin:0px auto 0px auto;
+	width:90%;
+}
+
+#contactSection li{
+	margin-right: 25px;
+	margin-bottom: 25px;
+	width:50px;
+	height: 50px;
+}
+
+#copyrightText, #designby{
+	font-size:12px;
+	line-height:40px;	
+	color:#fff;
+	width: 60%;
+}
+
+#copyrightText{
+	bottom:7%;
+}
+
+} /*<-- END MOBILE STYLES ///////////////////*/
+
+
